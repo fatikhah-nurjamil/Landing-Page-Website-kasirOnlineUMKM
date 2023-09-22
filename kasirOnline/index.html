@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasir Online</title>
+
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Start-->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">kasir<span>Online</span></a>
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#fitur">Fitur</a>
+            <a href="#contact">Kontak</a>
+        </div>
+
+        <div class="navbar-extra">
+            <button type="submit-form" class="btn">Daftar</button>
+            <button type="submit-form" class="btn">Login</button>
+            <a href="#" id="hamburger-menu"> <i data-feather="menu"></i> </a>
+        </div>
+
+    </nav>
+    <!-- Navbar End-->
+
+    <!-- Hero Section start-->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Kelola UMKM Anda Dengan Sistem <span>kasirOnline</span></h1>
+            <a href="https://skilvul.com" id="link" class="cta">Pelajari lebih lanjut!</a>
+        </main>
+    </section>
+    <!-- Hero Section end-->
+
+    <!-- About section star-->
+    <section id="about" class="about">
+        <h2>Tentang kasirOnline</h2>
+
+        <div class="row">
+            <div class="about-img">
+                <img src="img/5.jpg" alt="Tentang">
+            </div>
+            <div class="content">
+                <h3>Kenapa memilih kasir online ?</h3>
+                <p id="description">
+                    Menggunakan sistem kasir berbasis web memiliki banyak keuntungan, terutama jika Anda menjalankan
+                    bisnis ritel, restoran, atau usaha lain yang memerlukan pencatatan transaksi keuangan. Anda tidak
+                    perlu menginvestasikan banyak uang dalam perangkat keras khusus, seperti mesin kasir,
+                    karena Anda dapat menggunakan perangkat yang Anda miliki, seperti komputer atau tablet.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- About section end-->
+
+    <!-- Menu section start-->
+    <section id="fitur" class="fitur">
+        <h2>Fitur kasirOnline</h2>
+        <p>Sistem kasirOnline kami memiliki fitur-fitur yang akan membantu para UMKM untuk mengelola keuangan dan data
+            penjualannya. Fitur di kasirOnline kami buat secara detail dan sederhana agar dapat mudah dipahami dan
+            dipahami penggunaannya.</p>
+        <div class="row">
+            <div class="menu-card">
+                <img src="img/menu/Dashboard.jpg" alt="Dashboard" class="menu-card-img">
+                <h3 class="menu-card-title">Dashboard</h3>
+            </div>
+            <div class="menu-card">
+                <img src="img/menu/Gudang.jpg" alt="Gudang" class="menu-card-img">
+                <h3 class="menu-card-title">Gudang</h3>
+            </div>
+            <div class="menu-card">
+                <img src="img/menu/Kasir.jpg" alt="Kasir" class="menu-card-img">
+                <h3 class="menu-card-title">Kasir</h3>
+            </div>
+        </div>
+    </section>
+    <!-- Menu section end-->
+
+    <!-- Contact section start-->
+    <section id="contact" class="contact">
+        <h2>Kontak kami</h2>
+        <p>Hubungi kami jika anda tertarik menggunakan sistem kasirOnline, isikan data diri anda dibawah ini atau
+            kunjungi alamat kantor kami di Jl. Pd. Nahdhatul Hasan, Sumber Wetan, Kec. Kedopok, Kota Probolinggo, Jawa
+            Timur 67227 </p>
+        <div class="row">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63250.64147754134!2d113.2014757!3d-7.772311949999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7ad99c0c9e679%3A0x46c5d0faa7c56181!2sProbolinggo%2C%20Probolinggo%20City%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1695109319177!5m2!1sen!2sid"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="zip-code">Zip Code:</label>
+                <input type="number" id="zip-code" name="zip-code"><br><br>
+
+                <label id="check" for="status">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan
+                    telah sesuai</label>
+                <input type="checkbox" id="status" name="status"><br><br>
+
+                <button type="submit" id="submit-form">Submit</button>
+
+                <div id="warning"></div>
+            </form>
+
+        </div>
+
+    </section>
+    <!-- Contact section end-->
+
+    <!-- Footer start-->
+    <footer>
+        <div class="socials">
+            <a href="https://instagram.com/fatikhah_nurjamill?igshid=OGQ5ZDc2ODk2ZA=="><i
+                    data-feather="instagram"></i></a>
+            <a href="https://x.com/Saturnuss21?t=-XDFMQlLzs4qJLHgw_9bKA&s=09"><i data-feather="twitter"></i></a>
+            <a href="https://www.facebook.com/fatikhah.nurjamil.54?mibextid=nW3QTL"><i data-feather="facebook"></i></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#fitur">Fitur</a>
+            <a href="#contact">Kontak</a>
+
+        </div>
+
+        <div class="credit">
+            <p>Created by <a href="">fatikhah</a>. | &copy; 2023. </p>
+        </div>
+    </footer>
+    <!-- Footer end-->
+
+
+    <!-- Feather Icons-->
+    <script>
+        feather.replace();
+    </script>
+
+    <!--My Javascript-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
